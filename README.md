@@ -22,11 +22,12 @@
 1. Make sure **Docker Desktop** is running
 2. Navigate to `techex/local` directory
 3. Run `sh scripts/run_local.sh` and choose `create` to spin up airflow<br/>
-4. If running locally, navigate to `http://localhost:8080`
-5. Credentials
+4. After docker compose complete, airflow will take 3 minutes to initialize
+5. If running locally, navigate to `http://localhost:8080`
+6. Credentials
    - Username: `airflow`
    - Password: `airflow`
-6. Postgres URL `postgresql://airflow:airflow@localhost:5432/airflow`
+7. Postgres URL `postgresql://airflow:airflow@localhost:5432/airflow`
 
 
 ## Running Section 1
