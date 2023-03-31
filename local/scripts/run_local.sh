@@ -15,7 +15,7 @@ export PG_URL=$pg_url
 create(){
   docker-compose up -d
   echo "Setting up airflow vars..."
-  docker exec -it webserver scripts/set_airflow_vars.sh
+#  docker exec -it webserver scripts/set_airflow_vars.sh
 #  python scripts/seed_db.py
 }
 
