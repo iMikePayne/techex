@@ -1,3 +1,7 @@
 .idea
 .vscode
 dags/__pycache__
+local/scripts/__pycache__
+local/postgres-data
+local/logs/dag_processor_manager
+local/logs/scheduler
