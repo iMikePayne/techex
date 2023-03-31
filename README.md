@@ -33,12 +33,14 @@
 
 1. Place DEM_Challenge_Section1_DATASET.xlsx in `techex/data/stage`
 2. Navigate to airflow and run *monitor_specific_file*
+3. Results will be visible in `check_db` task in airflow UI
 
 ## Running Section 2
 
 ### Evaluating Base Model
 **Endpoint** - `http://localhost:7007/predict`
 1. Navigate to airflow and run *generate_test_case* (test cases are randomly generated)
+2. Results will be visible in `run_test_case_task` task in airflow UI
 
 ### Generating New model
 
@@ -49,4 +51,5 @@
 5. Navigate to airflow and run *update_ml_model*
 6. Archived models can be found in `techex/data/archive`
 7. Navigate to airflow and run *generate_test_case* (test cases are randomly generated)
+8. Results will be visible in `run_test_case_task` task in airflow UI
 
