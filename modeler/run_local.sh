@@ -4,7 +4,7 @@ echo -n "Choose a option create, run, stop, recreate, or delete: "
 read VAR
 
 create(){
-  docker-compose --verbose up -d
+  docker-compose up -d
 }
 
 run(){
